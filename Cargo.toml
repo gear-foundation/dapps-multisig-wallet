@@ -8,7 +8,7 @@ authors = ["Gear Technologies"]
 [dependencies]
 gstd = { git = "https://github.com/gear-tech/gear.git", features = ["debug"], rev = "d4552434"  }
 multisig-wallet-io = { path = "io" }
-primitive-types = { version = "0.12.0", default-features = false, features = ["scale-info"] }
+primitive-types = { version = "0.12.1", default-features = false, features = ["scale-info"] }
 
 [dev-dependencies]
 gtest = { git = "https://github.com/gear-tech/gear.git", rev = "d4552434"  }
