@@ -6,6 +6,7 @@ extern crate alloc;
 
 use core::cmp::min;
 use gstd::{exec, msg, prelude::*, ActorId};
+use hashbrown::HashMap;
 use primitive_types::U256;
 pub mod state;
 use state::*;
@@ -27,8 +28,8 @@ pub struct Transaction {
 
 #[derive(Default)]
 pub struct MultisigWallet {
-    pub transactions: BTreeMap<TransactionId, Transaction>,
-    pub confirmations: BTreeMap<TransactionId, BTreeSet<ActorId>>,
+    pub transactions: HashMap<TransactionId, Transaction>,
+    pub confirmations: HashMap<TransactionId, BTreeSet<ActorId>>,
     pub owners: BTreeSet<ActorId>,
     pub required: u64,
     pub transaction_count: U256,
