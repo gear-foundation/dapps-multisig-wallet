@@ -312,7 +312,7 @@ impl MultisigWallet {
 }
 
 #[no_mangle]
-unsafe extern "C" fn init() {
+extern "C" fn init() {
     let config: MWInitConfig = msg::load().expect("Unable to decode MWInitConfig");
 
     let owners_count = config.owners.len();
@@ -331,7 +331,7 @@ unsafe extern "C" fn init() {
 
     wallet.required = config.required;
 
-    WALLET = Some(wallet);
+    unsafe { WALLET = Some(wallet) };
 }
 
 #[gstd::async_main]
