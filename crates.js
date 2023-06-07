@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["multisig_wallet","multisig_wallet_io","multisig_wallet_state"];

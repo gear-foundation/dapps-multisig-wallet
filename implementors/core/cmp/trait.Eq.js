@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"multisig_wallet_io":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.Eq.html\" title=\"trait core::cmp::Eq\">Eq</a> for <a class=\"struct\" href=\"multisig_wallet_io/struct.State.html\" title=\"struct multisig_wallet_io::State\">State</a>"],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.Eq.html\" title=\"trait core::cmp::Eq\">Eq</a> for <a class=\"struct\" href=\"multisig_wallet_io/struct.Transaction.html\" title=\"struct multisig_wallet_io::Transaction\">Transaction</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

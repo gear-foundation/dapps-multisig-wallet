@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["confirmations","confirmations_count","is_confirmed","owners","transaction_description","transaction_ids","transactions_count"],"type":["State"]};

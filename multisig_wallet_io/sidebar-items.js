@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["MWAction","MWEvent"],"struct":["ContractMetadata","MWInitConfig","State","Transaction"],"type":["TransactionId"]};
