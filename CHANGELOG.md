@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.5] - 2023-07-05
+## [0.1.4] - 2023-07-05
 ### Changed
 - Updated Gear dependencies to the actual revision (`#946ac47`).
 
@@ -24,8 +24,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/gear-dapps/multisig-wallet/compare/0.1.5...HEAD
-[0.1.5]: https://github.com/gear-dapps/multisig-wallet/compare/0.1.2...0.1.5
+[Unreleased]: https://github.com/gear-dapps/multisig-wallet/compare/0.1.4...HEAD
+[0.1.4]: https://github.com/gear-dapps/multisig-wallet/compare/0.1.2...0.1.4
 [0.1.2]: https://github.com/gear-dapps/multisig-wallet/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/gear-dapps/multisig-wallet/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/gear-dapps/multisig-wallet/compare/59b2f7b...0.1.0
